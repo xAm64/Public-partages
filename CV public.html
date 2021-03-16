@@ -1,0 +1,292 @@
+<html lang="fr">
+<!-- Ce CV à été fait avec un éditeur de code (Eclipse) et ma mémoire, mes seuls aides sont des recherches internet -->
+<head>
+	<meta charset="utf-8">
+	<title>CV Max Thirioux</title>
+	<meta name="Author" content="Max Thirioux">
+	<meta name="Keywords" content="CV">
+	<meta name="Description" content="CV de Max Thirioux">
+	<!-- CSS (j'ai tout mis ici, pour faire qu'un seul doccument a envoyer) -->
+	<style>
+	* {box-sizing: border.box}
+	/*Responsive grand écran*/
+	@media (min-width: 1024px){
+		body {
+		background: #FFF; color: #000;
+		margin: 0; padding: 0;
+		width: 1024px;
+		margin-left: auto;
+		margin-right: auto;
+		}
+		#tout {
+		display: grid;
+		grid-template-rows: 160px 1fr 100px;
+		grid-template-columns: 30% 70%;
+		grid-template-areas: " HG HD "
+						 	 " G D "
+						 	 " F F "
+		}
+		.hautGauche {
+		grid-area: HG;
+		vertical-align: middle;
+		}
+		.hautDroit {
+		grid-are: HD;
+		text-align: center;
+		vertical-align: middle;
+		font-size: 25Px;
+		line-height: 160px;
+		}
+		.gauche {
+		grid-area: G;
+		background: #577DA9;
+		background-image: linear-gradient(to right, #4D74A4 , #8BA5C5);
+		text-align: center;
+		Height: 100%;
+		}
+		.lang {
+		grid-area: lang;
+		height: 50%;
+		vertical-align: middle;
+		padding-top: 100%;
+		}
+		.linkedin {
+		grid-area: linkedin;
+		height: 25%;
+		vertical-align: middle;
+		}
+		.youtube {
+		grid-area: youtube;
+		height: 25%;
+		vertical-align: middle;
+		}
+		gauche p {padding-top : 20px}
+		main {grid-area: D}
+		footer {grid-area: F}
+		a {
+		color: #125;
+		transition-duration: 200ms;
+		}
+		a:hover {
+		color: #690;
+		-webkit-text-stroke: 1px #AA3;
+		transition-duration: 500ms;
+		}
+	}
+	@media (min-width: 500px){
+		.contenueCV {
+		width: 100%;
+		display: grid;
+		grid-template-columns: 30% 70%;
+		grid-template-areas: "Ga Da";
+		}
+		.ga {grid-area: Ga}
+		.da {grid-area: Da}
+		.tableau {display: none}
+		table { display: block}
+	}
+	/* petit écran */
+	@media (max-width: 499px){
+		.tableau {display: block}
+		table {display: none}
+		.titre {
+		font-size: 18px;
+		color: #A66800
+		}
+	}
+	/*Normal*/
+	.presentation {
+		background: #577DA9; color: #FFFACD;
+		background-image: linear-gradient(to right, #4D74A4 , #8BA5C5);
+		text-align: center;
+		font-size: 18Px;
+		vertical-align: middle;
+		border: 1px solid #FFFACD;
+		border-radius: 10px 100px / 120px;
+		}
+	.cadre {
+	background: #E9EFF7;
+	border-radius: 10px 100px / 120px;
+	text-align: center
+	}
+	.competences {width: 100%}
+	.pr {
+	background: #8EB4E3;
+	border: 1px solid #C8EEFF
+	}
+	.im {
+	background: #9BC1F0;
+	border: 1px solid #DDFFFF
+	}
+	.nom {
+		color: #0070C0;
+		font-size: 19Px;
+		margin-bottom: -10px;
+		}
+	.tableau ul {
+	margin: 0;
+	margin-left: -40px;
+	}
+	.tableau ul li {list-style: none}
+	footer {
+	width: 100%;
+	font-size: 10px;
+	texe-align: left;
+	position: absolute;
+	}
+	</style>
+</head>
+<!-- Corps -->
+<body>
+<div id="tout"><!-- Permet de centrer tout ou de tout bloquer -->
+<!-- Header  -->
+<div class="hautDroit"><div class="cadre">Développeur Web et Web Mobile</div></div>
+<div class="hautGauche"><div class="nom">Max Thirioux</div><br>
+&#127968; Données personnels masqués pour raisons de sécurités<br>
+</div>
+<!-- Centre -->
+<main>
+	<div class="presentation">Formations</div>
+	<div class="contenueCV">
+		<div class="ga">2019 - 2021<br>
+		Centre de Réadaptation de Mulhouse (68)</div>
+		<div class="da"><strong><a href="https://drive.google.com/file/d/1l0fqRVT9RZSzp8gzBzO_KeV5kN3e2lnX/view?usp=sharing" title="Voir le titre">Développeur Web et Web mobile</a></strong> niv 5<br>
+		Fabrication de sites et applications Web<br>
+		HTML5, CSS3, PHP, JavaScript, SQL, WordPress</div>
+	</div>
+	<br>
+	<div class="contenueCV">
+		<div class="ga">2016-2017<br>
+		CRP de Beterette (64)</div>
+		<div class="da"><strong><a href="https://drive.google.com/file/d/1VkHMoeXX3o1mUirsStSfidsDQq0G1lBO/view?usp=sharing" title="Voir le titre">Technicien d’assistance en Informatique</a></strong> niv 4<br>
+		<a href="https://drive.google.com/file/d/1hG2eY3JTTyPoG0WNATDueMFnn2utWcjJ/view?usp=sharing" title="Voir certification">Cisco IT Essentials</a><br></div>
+	</div>
+	<br>
+	<div class="contenueCV">
+		<div class="ga">2015<br>
+		CRIC Pyrénées (64)</div>
+		<div class="da"><strong>Remise a niveau matières générales et bureautique</strong><br>
+		Français, math, Exposé en public, Word, Excel, PowerPoint</div>
+	</div>
+	<br>
+	<div class="contenueCV">
+		<div class="ga">2013<br>
+		École d’art de Bayonne</div>
+		<div class="da"><strong>Webdesigner<br>
+		Création de sites en HTML4 + CSS3, WordPress</div>
+	</div>
+	<div class="presentation">Compétences</div>
+	<!-- Tableau affichage écran < à 500px -->
+	<div class="tableau">
+		<div class="colA">
+			<ul>
+				<li class="pr titre"><strong>Langages</strong></li>
+				<li class="im">C#</li>
+				<li class="pr">PHP</li>
+				<li class="im">JavaScript</li>
+				<li class="pr">SQL</li>
+				<li class="im">HTML 4 et 5 CSS3</li>
+				<li class="pr">Cobol (notion)</li>
+			</ul>
+		</div>
+		<div class="colB">
+			<ul>
+				<li class="pr titre"><strong>Frameworks et CMS</strong></li>
+				<li class="im">.Net, ASP Entity framework</li>
+				<li class="pr">Symfony, Wordpress , Laravel</li>
+				<li class="im">Vanilla, jQuery, Ajax</li>
+				<li class="pr">MySQL, Postgre SQL</li>
+				<li class="im">Bootstrap, Materialize</li>
+				<li class="pr">Open Cobol IDE</li>
+			</ul>
+		</div>
+		<div class="colC">
+			<ul>
+				<li class="pr titre"><strong>Méthodes et Outils</strong></li>
+				<li class="im">Modélisation UML</li>
+				<li class="pr">Méthode Merise</li>
+				<li class="im">Git</li>
+				<li class="pr">Visual Studio</li>
+				<li class="im">Eclipse</li>
+				<li class="pr">Entreprise Architect</li>
+				<li class="im">Looping</li>
+			</ul>
+		</div>
+		<div class="colD">
+			<ul>
+				<li class="pr titre"><strong>Webdesign</strong></li>
+				<li class="im">Photoshop (autodidacte)</li>
+				<li class="pr">HTML, CSS, JavaScript</li>
+				<li class="im">Google SketchUp</li>
+				<li class="pr"><a href="https://youtu.be/DSPKr6Xyi4c" title="Vidéo monté avec le logiciel">Filmaura</a>, <a href="https://youtu.be/rJ297DDr6DE" title="Vidéo monté avec le logiciel">Adobe Premiere</a></li>
+				<li class="im">Audacity, Adobe Audition</li>
+				<li class="pr">OBS Studio</li>
+				<li class="im">YouTube</li>
+			</ul>
+		</div>
+	</div>
+	<!-- Tableau affichage écran 500Px ou + -->
+	<table>
+		<tr class="pr"><th>Langages</th>	<th>Frameworks et CMS</th>							<th>Méthodes et Outils</th>	<th>Webdesign</th></tr>
+		<tr class="im"><td>C#</td>			<td>.Net, ASP, Entity framework</td>				<td>Modélisation UML</td>	<td>Photoshop</td></tr>
+		<tr class="pr"><td>PHP</td>			<td>Symfony, WordPress, Laravel</td>				<td>Méthode Merise</td>		<td>HTML, CSS, JavaScript</td></tr>
+		<tr class="im"><td>JavaScript</td>	<td>Vanilla, jQuery, Ajax</td>						<td>GIT</td>				<td>Sketchup</td></tr>
+		<tr class="pr"><td>SQL</td>			<td>MySQL, PostgreSQL</td>							<td>Visual Studio</td>		<td><a href="https://youtu.be/DSPKr6Xyi4c" title="Vidéo monté avec le logiciel">Filmaura</a>, <a href="https://youtu.be/rJ297DDr6DE" title="Vidéo monté avec le logiciel">Adobe Premiere</a></td></tr>
+		<tr class="im"><td>HTML 4,5 CSS</td><td>Bootstrap, Materialize</td>						<td>Eclipse</td>			<td>Audacity, Adobe Audition</td></tr>
+		<tr class="pr"><td>Cobol (notion)</td><td>Open Cobol IDE</td>							<td>Entreprise Architect</td><td>OBS Studio</td></tr>
+		<tr class="im"><td></td>			<td></td>											<td>Looping</td>			<td><a href="https://www.youtube.com/c/PiedsTorduLand">YouTube</a></td></tr>
+	</table>
+	<div class="presentation">Expériences professionnelles</div>
+	<div class="contenueCV">
+		<div class="ga">2020<br>
+		Conseil départemental des Pyrénées-Atlantiques</div>
+		<div class="da"><strong>Développeur Web stagiaire</strong><br>
+		Développement d’une application web en Laravel, Mise en place d’outils d’accéssibilité , sécuriation de l’application, télétravail</div>
+	</div>
+	<br>
+	<div class="contenueCV">
+		<div class="ga">2013 - 2018<br>
+		Boutiques informatiques, collectivités territoriales, ESN<br>
+		CDD 7 mois<br>
+		Stages 9 mois</div>
+		<div class="da"><strong>Technicien d’Assistance Informatique</strong><br>
+		Installation et maintenance Hardware / software, intervention sur les éléments d’une infrastructure réseau, installation, paramétrage de serveur Windows et A ctive directory.<br>
+		Configuration box pour particulier, accueil et vente au comptoir, assistance utilisateur, prise en main a distance</div>
+	</div>
+	<br>
+	<div class="contenueCV">
+		<div class="ga">2000-2013<br>
+		Miroiterie Alchuteguy<br>
+		Profinox</div>
+		<div class="da">Agent polyvalent<br>
+		Assemblage de menuiserie aluminium<br>
+		Maintenance d’outils électroportatifs Câblage électrique</div>
+	</div>
+	<div class="presentation">Activités extra professionnelles</div>
+	<p>Jeu vidéo (RPG) Raid leader<br>
+	Utilisation de l'anglais et de l'espagnol<br>
+	Participation aux bêta-tests remonter des bugs à l'éditeur.</p>
+	<p>Tenir une chaîne YouTube</p>
+	<p>Voyages à l'étranger, particulièrement en Amérique Latine, randonées en Montagne</p>
+</main>
+<div class="gauche">
+	<div class="lang">Langues<br>
+	Anglais A2 (en cours de perfectionnement)<br>
+	Espagnol Conversationnel</p></div>
+	<div class="linkedin">Profil <a Href="https://www.linkedin.com/in/t-max/">Linkedin</a></div>
+	<div class="youtube">Ma chaîne <a href="https://www.youtube.com/c/PiedsTorduLand">YouTube</a></div>
+</div>
+<!-- Footer -->
+<footer>
+	<p>©2021 Max Thirioux<br>
+	Cette page est en responsive, les éléments s'adapteront à la taille de votre écran (et seront centrés au-delà de 1024).</p>
+</footer>
+</div>
+</body>
+<!-- JavaScript -->
+<script>
+confirm('Désolé de vous embêter :\n'
+		+'Depuis octobre 2020 La CNIL m’oblige à vous informer que cette page n’utilise ni cookie ni traceur.\n'
+		+'Accéptez vous de ne pas être pisté ?');
+</script>
+</html>
